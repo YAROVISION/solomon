@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EED599"/>
+      <stop offset="50%" stop-color="#C5A059"/>
+      <stop offset="100%" stop-color="#9C772F"/>
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#2A354E"/>
+      <stop offset="100%" stop-color="#141926"/>
+    </radialGradient>
+  </defs>
+  <!-- Background with subtle royal gradient -->
+  <rect width="32" height="32" rx="7" fill="url(#bgGrad)" stroke="#C5A059" stroke-width="1" stroke-opacity="0.3"/>
+  
+  <!-- Crown Base Ribbon -->
+  <path d="M7 22C7 21.4 7.4 21 8 21H24C24.6 21 25 21.4 25 22C25 22.6 24.6 23 24 23H8C7.4 23 7 22.6 7 22Z" fill="url(#goldGrad)"/>
+  
+  <!-- Crown Body -->
+  <path d="M7.5 19.5L5 9.5L11 14.5L16 7L21 14.5L27 9.5L24.5 19.5H7.5Z" fill="url(#goldGrad)"/>
+  
+  <!-- Crown Jewels / Jewels on peaks -->
+  <circle cx="5" cy="9" r="1.3" fill="#FFF2CC"/>
+  <circle cx="16" cy="6.5" r="1.6" fill="#FFF2CC"/>
+  <circle cx="27" cy="9" r="1.3" fill="#FFF2CC"/>
+  
+  <!-- Center Star of Wisdom on Crown -->
+  <circle cx="16" cy="15.5" r="1.2" fill="#141926"/>
+</svg>
